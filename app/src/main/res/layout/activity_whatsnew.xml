@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_whatsnew_page3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/bg_whatsnew_bg_3"/>
+
+        <ImageView
+            android:id="@+id/pagethree_phone"
+            android:layout_height="331dp"
+            android:layout_width="260dp"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_whatsnew_pagethree_phone"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/pagethree_floattext1"
+            android:layout_height="50dp"
+            android:layout_width="180dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="-20dp"
+            android:layout_alignRight="@id/pagethree_phone"
+            android:src="@drawable/icon_whatsnew_pagethree_floattext1"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/pagethree_text1"
+            android:layout_height="55dp"
+            android:layout_width="190dp"
+            android:layout_below="@id/pagethree_floattext1"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_whatsnew_pagethree_text1"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/pagethree_text2"
+            android:layout_height="36dp"
+            android:layout_width="165dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/pagethree_text1"
+            android:layout_alignLeft="@id/pagethree_text1"
+            android:src="@drawable/icon_whatsnew_pagethree_text2"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/pagethree_floattext2"
+            android:layout_height="48dp"
+            android:layout_width="124dp"
+            android:layout_below="@id/pagethree_text2"
+            android:layout_marginRight="-5dp"
+            android:layout_alignRight="@id/pagethree_phone"
+            android:src="@drawable/icon_whatsnew_pagethree_floattext2"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/start_home"
+            android:layout_height="64dp"
+            android:layout_width="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pagethree_phone"
+            android:src="@drawable/icon_whatsnew_pagethree_start"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_whatsnew_page2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/bg_whatsnew_bg_2"/>
+        <View
+            android:id="@+id/center_point2"
+            android:layout_height="1dp"
+            android:layout_width="1dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:layout_height="92dp"
+            android:layout_width="42dp"
+            android:layout_above="@id/center_point2"
+            android:layout_marginBottom="85dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_whatsnew_logo"/>
+
+        <ImageView
+            android:id="@+id/pagetwo_image"
+            android:layout_height="348dp"
+            android:layout_width="280dp"
+            android:layout_above="@id/center_point2"
+            android:layout_marginBottom="-70dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_whatsnew_pagetwo_image"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/pagetwo_text"
+            android:layout_height="49dp"
+            android:layout_width="130dp"
+            android:layout_below="@id/center_point2"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/icon_whatsnew_pagetwo_text"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_whatsnew_page1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/bg_whatsnew_bg_1"/>
+        <View
+            android:id="@+id/center_point"
+            android:layout_height="1dp"
+            android:layout_width="1dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:layout_height="92dp"
+            android:layout_width="42dp"
+            android:layout_above="@id/center_point"
+            android:layout_marginBottom="85dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_whatsnew_logo"/>
+
+        <ImageView
+            android:id="@+id/pageone_text"
+            android:layout_height="90dp"
+            android:layout_width="240dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_whatsnew_pageone_text"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/touch_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+        <ImageView
+            android:id="@+id/pagethree_indicator"
+            android:layout_height="26dp"
+            android:layout_width="86dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_whatsnew_pagethree_indicator"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/pagetwo_indicator"
+            android:layout_height="26dp"
+            android:layout_width="86dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_whatsnew_pagetwo_indicator"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/pageone_indicator"
+            android:layout_height="26dp"
+            android:layout_width="86dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_whatsnew_pageone_indicator" />
+
+    </RelativeLayout>
+
+</FrameLayout>
